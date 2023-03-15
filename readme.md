@@ -36,7 +36,7 @@ Example input file (`input.txt`):
 ```
 To calculate commission fees based on the input file, run the following command:
 ```console
-php index.php input.txt
+php app.php input.txt
 ```
 The output will display the commission fees for each transaction, one per line:
 ```
