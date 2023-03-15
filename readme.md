@@ -10,13 +10,11 @@ This project calculates commission fees based on transaction data.
 ## Installation
 
 1. Clone the repository:
+```git clone https://github.com/erekle1/CommissionTask```
 
-git clone https://github.com/erekle1/CommissionTask
-
-2.Install dependencies using Composer:
-composer install
-4. Copy `.env.example` to `.env` and update the environment variables according to your API credentials:
-cp .env.example .env
+2. Install dependencies using Composer:```composer install```
+3. Copy `.env.example` to `.env` and update the environment variables according to your API credentials:
+```cp .env.example .env```
 
 ## Usage
 
@@ -27,7 +25,7 @@ To calculate commission fees, provide a text file with transaction data as input
 - `currency`: The currency code of the transaction.
 
 Example input file (`input.txt`):
-```json
+```
 {"bin":"45717360","amount":"100.00","currency":"EUR"}
 {"bin":"516793","amount":"50.00","currency":"USD"}
 {"bin":"45417360","amount":"10000.00","currency":"JPY"}
