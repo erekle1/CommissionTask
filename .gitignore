@@ -1,0 +1,9 @@
+# Ignore Composer's vendor directory
+/vendor/
+
+# Ignore .env file to prevent sensitive data from being committed
+.env
+
+# Ignore PhpStorm IDE files and directories
+.idea/
+*.iml
